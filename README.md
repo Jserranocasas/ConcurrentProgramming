@@ -13,7 +13,7 @@ Semaphore nuevaPeticion = new Semaphore(0);
 ```
 
 ```java
- ExecutorService ejecucion = (ExecutorService) Executors.newFixedThreadPool(8);
+ExecutorService ejecucion = (ExecutorService) Executors.newFixedThreadPool(8);
 ```
 
 The program uses the [**java.util.concurrent**](https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/package-summary.html) library for concurrency.
